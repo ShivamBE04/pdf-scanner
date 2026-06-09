@@ -35,6 +35,13 @@
       margin-top: 30px;
       color: #1f2937;
       font-size: 22px;
+      border-bottom: 2px solid #e5e7eb;
+      padding-bottom: 10px;
+    }
+    h3 {
+      margin-top: 20px;
+      color: #374151;
+      font-size: 18px;
     }
     p {
       margin-top: 10px;
@@ -47,12 +54,22 @@
     li {
       margin-bottom: 8px;
     }
+    strong {
+      color: #1f2937;
+    }
     a {
       color: #2563eb;
       text-decoration: none;
     }
     a:hover {
       text-decoration: underline;
+    }
+    .highlight {
+      background-color: #fef3c7;
+      padding: 15px;
+      border-left: 4px solid #f59e0b;
+      margin: 15px 0;
+      border-radius: 4px;
     }
     .footer {
       margin-top: 40px;
@@ -80,129 +97,232 @@
   <div class="container">
     <h1>Privacy Policy</h1>
     <div class="updated">
-      Last updated: May 2026
+      Last updated: June 2026
     </div>
     <p>
-      PDF Scanner ("we", "our", or "the app") respects your privacy.
+      PDF Scanner ("we", "our", or "the app") is committed to protecting your privacy and ensuring transparency about how we collect and use data.
     </p>
 
     <h2>Information We Collect</h2>
     <p>The app may access:</p>
     <ul>
-      <li>Camera permission (to scan documents)</li>
-      <li>Storage permission (to save generated PDFs)</li>
-      <li>Advertising ID (to serve relevant ads)</li>
+      <li><strong>Camera permission</strong> — to scan documents</li>
+      <li><strong>Storage permission</strong> — to save generated PDFs locally</li>
+      <li><strong>Advertising ID (GAID)</strong> — for advertising and analytics purposes</li>
+      <li><strong>Device identifiers</strong> — for app functionality and analytics</li>
     </ul>
     <p>
-      We do not collect personal information, passwords, or payment information.
+      <strong>We do not collect:</strong> Personal information, passwords, payment information, or the content of your scanned documents.
     </p>
 
     <h2>How Your Data Is Used</h2>
+    <h3>Document Storage</h3>
     <p>
-      All scanned documents and generated PDFs are stored locally on your device.
-    </p>
-    <p>
-      We do not upload your files to external servers.
+      All scanned documents and generated PDFs are stored <strong>locally on your device only</strong>. We do not upload, sync, or access your files to external servers.
     </p>
 
-    <h2>Advertising</h2>
+    <h3>Advertising ID & GAID Collection</h3>
     <p>
-      This app displays ads served by Google Ad Manager. Google may use your device's
-      Advertising ID and other non-personal data to serve relevant advertisements.
-    </p>
-    <p>
-      The types of ads shown include:
+      We collect your device's Advertising ID (GAID on Android) to:
     </p>
     <ul>
+      <li>Serve personalized and relevant advertisements</li>
+      <li>Measure advertising performance and effectiveness</li>
+      <li>Prevent ad fraud and improve ad quality</li>
+      <li>Track attribution and install sources</li>
+    </ul>
+
+    <h3>Analytics & Attribution</h3>
+    <p>
+      We use third-party analytics platforms to understand user behavior and improve the app:
+    </p>
+    <ul>
+      <li><strong>Firebase Analytics</strong> — tracks key in-app events (scans, saves, shares)</li>
+      <li><strong>Apptrove</strong> — measures app installs, attribution, and user engagement metrics</li>
+    </ul>
+    <p>
+      These services use your Advertising ID and device identifiers to associate events across app sessions and campaigns.
+    </p>
+
+    <h2>Advertising & Ad Personalization</h2>
+    <p>
+      This app displays ads served through <strong>Google Ad Manager</strong>. Google may use your device's Advertising ID and other non-personal data to:
+    </p>
+    <ul>
+      <li>Serve personalized advertisements based on your interests</li>
+      <li>Measure ad performance and user engagement</li>
+      <li>Prevent fraud and improve ad quality</li>
+    </ul>
+
+    <h3>Types of Ads Displayed</h3>
+    <ul>
       <li>Banner ads</li>
-      <li>Interstitial ads</li>
+      <li>Interstitial ads (full-screen)</li>
       <li>Native ads</li>
       <li>Rewarded ads</li>
       <li>App open ads</li>
     </ul>
-    <p>
-      You can opt out of personalized ads by visiting your device's
-      <strong>Settings → Google → Ads → Opt out of Ads Personalization</strong>.
-    </p>
-    <p>
-      For more information on how Google uses data, visit:
-      <a href="https://policies.google.com/privacy" target="_blank">
-        https://policies.google.com/privacy
-      </a>
-    </p>
 
-    <h2>Analytics & Attribution</h2>
+    <h3>Opt Out of Ad Personalization</h3>
     <p>
-      We use Apptrove, a mobile measurement platform, to track app installs and
-      in-app events such as document scans, PDF saves, and shares. This helps us
-      understand how users interact with the app and improve our services.
-    </p>
-    <p>
-      Apptrove may collect:
+      You can opt out of personalized ads and reset your Advertising ID:
     </p>
     <ul>
-      <li>Device identifiers (Advertising ID / GAID)</li>
-      <li>App usage events (anonymous)</li>
-      <li>Install source information</li>
+      <li><strong>Android:</strong> Settings → Google → Manage your Google Account → Data & Privacy → Ad Settings → Opt out of Ads Personalization</li>
+      <li><strong>Reset Advertising ID:</strong> Settings → Google → Manage your Google Account → Data & Privacy → Ad Settings → Reset Advertising ID</li>
     </ul>
     <p>
-      For more information, visit:
-      <a href="https://apptrove.com/privacy-policy" target="_blank">
-        https://apptrove.com/privacy-policy
-      </a>
+      Opting out does not stop ads from appearing—only reduces personalization. You can also delete your Advertising ID entirely from your device settings.
     </p>
 
     <h2>Third-Party Services</h2>
     <p>
-      The app uses the following third-party services:
+      The app uses the following third-party services that may collect data:
     </p>
     <ul>
-      <li>Expo</li>
-      <li>Google Play Services</li>
-      <li>Google Ad Manager (advertising)</li>
-      <li>Apptrove (analytics & attribution)</li>
+      <li>
+        <strong>Google Ad Manager / AdMob</strong> — for serving and measuring advertisements
+        <a href="https://policies.google.com/privacy" target="_blank">(Privacy Policy)</a>
+      </li>
+      <li>
+        <strong>Firebase Analytics</strong> — for tracking app usage, user engagement, and crash reporting
+        <a href="https://firebase.google.com/support/privacy" target="_blank">(Privacy Policy)</a>
+      </li>
+      <li>
+        <strong>Firebase Cloud Messaging (FCM)</strong> — for push notifications (if enabled)
+        <a href="https://firebase.google.com/support/privacy" target="_blank">(Privacy Policy)</a>
+      </li>
+      <li>
+        <strong>Apptrove</strong> — for install tracking and attribution
+        <a href="https://apptrove.com/privacy-policy" target="_blank">(Privacy Policy)</a>
+      </li>
+      <li>
+        <strong>Expo</strong> — development platform for app delivery
+        <a href="https://expo.dev/privacy" target="_blank">(Privacy Policy)</a>
+      </li>
+      <li>
+        <strong>Google Play Services</strong> — core Android functionality
+        <a href="https://policies.google.com/privacy" target="_blank">(Privacy Policy)</a>
+      </li>
+    </ul>
+
+    <h3>Push Notifications & FCM Tokens</h3>
+    <p>
+      If you enable push notifications, the app generates an FCM (Firebase Cloud Messaging) token on your device. This token is:
+    </p>
+    <ul>
+      <li>Used to send you push notifications</li>
+      <li>Associated with your device and Advertising ID</li>
+      <li>Stored by Firebase for message delivery</li>
+      <li>Automatically deleted if you uninstall the app or disable notifications</li>
     </ul>
     <p>
-      These services may collect anonymous technical data as described in their
-      respective privacy policies.
+      <strong>You can disable push notifications</strong> in Settings without affecting other app functionality.
     </p>
 
-    <h2>Data Sharing</h2>
+    <h2>Data Sharing & Disclosure</h2>
     <p>
-      We do not sell, trade, or share your personal files or scanned documents.
-      Advertising and analytics partners may receive anonymous usage data as
-      described above.
+      <strong>We do not:</strong>
     </p>
+    <ul>
+      <li>Sell, trade, or rent your personal data</li>
+      <li>Share your scanned documents or PDFs with third parties</li>
+      <li>Access or backup your locally stored files</li>
+    </ul>
+    <p>
+      <strong>We do share:</strong>
+    </p>
+    <ul>
+      <li>Your Advertising ID with Google, Firebase, and Apptrove for advertising and analytics</li>
+      <li>Anonymized usage events (scans, saves, shares) with analytics partners</li>
+      <li>Device identifiers with advertising networks for ad targeting and measurement</li>
+    </ul>
+
+    <h2>Data Retention & Deletion</h2>
+    <h3>Data Stored on Your Device</h3>
+    <ul>
+      <li>All scanned documents and PDFs are deleted when you uninstall the app or manually delete them</li>
+      <li>App cache and temporary files are cleared when you uninstall</li>
+    </ul>
+
+    <h3>Data Stored by Third Parties</h3>
+    <ul>
+      <li>
+        <strong>Firebase Analytics:</strong> Automatically deletes inactive user data after 25 months. You can delete your Firebase data through your Google Account settings.
+      </li>
+      <li>
+        <strong>Apptrove:</strong> Retains install and event data for attribution purposes. Data can be deleted upon request.
+      </li>
+      <li>
+        <strong>Google Ad Manager:</strong> Stores Advertising ID and ad-related data according to Google's <a href="https://policies.google.com/privacy" target="_blank">privacy policy</a>. You can delete your Advertising ID or opt out of tracking at any time.
+      </li>
+      <li>
+        <strong>FCM Token:</strong> Automatically deleted 30 days after the app is uninstalled or when you disable notifications.
+      </li>
+    </ul>
+
+    <h3>Requesting Data Deletion</h3>
+    <p>
+      You can request deletion of your data by contacting us at:
+      <a href="mailto:shivam@bedigitech.com">shivam@bedigitech.com</a>
+    </p>
+    <p>
+      Please specify:
+    </p>
+    <ul>
+      <li>Your device type (Android/iOS)</li>
+      <li>The date you installed the app</li>
+      <li>What data you'd like deleted</li>
+    </ul>
 
     <h2>Security</h2>
     <p>
-      We strive to protect your data and keep all document processing local to
-      your device whenever possible.
+      We implement security measures to protect data in transit. However, no method of transmission over the internet is 100% secure. By using this app, you assume the risk of data transmission.
+    </p>
+    <p>
+      <strong>Best practice:</strong> Keep your device updated with the latest security patches.
     </p>
 
     <h2>Children's Privacy</h2>
     <p>
-      This app is not directed toward children under 13.
+      This app is not directed toward children under 13 and does not knowingly collect personal information from children. If you believe we have collected data from a child under 13, please contact us immediately.
+    </p>
+
+    <h2>Your Privacy Rights</h2>
+    <p>
+      Depending on your location, you may have the right to:
+    </p>
+    <ul>
+      <li>Access personal data we hold about you</li>
+      <li>Request deletion of your data</li>
+      <li>Opt out of data collection and personalized advertising</li>
+      <li>Request information about how your data is used</li>
+    </ul>
+    <p>
+      To exercise these rights, contact: <a href="mailto:shivam@bedigitech.com">shivam@bedigitech.com</a>
     </p>
 
     <h2>Changes to This Policy</h2>
     <p>
-      We may update this Privacy Policy in the future. Continued use of the app
-      after changes constitutes acceptance of the updated policy.
+      We may update this Privacy Policy to reflect changes in our practices, technology, or legal requirements. Continued use of the app after updates constitutes acceptance of the revised policy. We recommend reviewing this policy periodically.
     </p>
 
-    <h2>Contact</h2>
+    <h2>Contact & Privacy Requests</h2>
     <p>
-      For questions regarding this Privacy Policy, contact:
+      For questions, concerns, or privacy requests, please contact:
     </p>
     <p>
-      <a href="mailto:shivam@bedigitech.com">
-        shivam@bedigitech.com
-      </a>
+      <strong>Email:</strong> <a href="mailto:shivam@bedigitech.com">shivam@bedigitech.com</a>
     </p>
+    <p>
+      <strong>Company:</strong> Bedigitech
+    </p>
+    
 
+   
     <div class="footer">
-      © 2026 PDF Scanner. All rights reserved.
+      © 2026 PDF Scanner. All rights reserved.<br>
+      Last updated: June 2026
     </div>
   </div>
 </body>
