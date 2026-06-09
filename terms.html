@@ -1,4 +1,4 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -35,6 +35,13 @@
       margin-top: 30px;
       color: #1f2937;
       font-size: 22px;
+      border-bottom: 2px solid #e5e7eb;
+      padding-bottom: 10px;
+    }
+    h3 {
+      margin-top: 20px;
+      color: #374151;
+      font-size: 18px;
     }
     p {
       margin-top: 10px;
@@ -47,12 +54,22 @@
     li {
       margin-bottom: 8px;
     }
+    strong {
+      color: #1f2937;
+    }
     a {
       color: #2563eb;
       text-decoration: none;
     }
     a:hover {
       text-decoration: underline;
+    }
+    .highlight {
+      background-color: #fef3c7;
+      padding: 15px;
+      border-left: 4px solid #f59e0b;
+      margin: 15px 0;
+      border-radius: 4px;
     }
     .footer {
       margin-top: 40px;
@@ -80,108 +97,271 @@
   <div class="container">
     <h1>Terms & Conditions</h1>
     <div class="updated">
-      Last updated: May 2026
+      Last updated: June 2026
     </div>
     <p>
-      Welcome to PDF Scanner.
+      Welcome to PDF Scanner ("the app", "we", "our", or "us").
     </p>
     <p>
-      By using this application, you agree to the following terms and conditions.
+      By downloading, installing, or using this application, you agree to be bound by these Terms & Conditions. If you do not agree, please do not use the app.
     </p>
 
     <h2>Use of the App</h2>
     <p>
-      PDF Scanner allows users to scan documents, generate PDFs, and share files
-      locally from their device.
+      PDF Scanner allows users to:
+    </p>
+    <ul>
+      <li>Scan documents using device camera</li>
+      <li>Generate PDF files from scanned images</li>
+      <li>Edit and enhance scanned documents</li>
+      <li>Share PDFs with other apps</li>
+      <li>Store PDFs locally on device</li>
+    </ul>
+    <p>
+      <strong>Permitted Use:</strong> You agree to use the app only for lawful purposes and in a way that does not violate these terms or infringe upon others' rights.
     </p>
     <p>
-      You agree to use the app only for lawful purposes.
+      <strong>Prohibited Use:</strong> You may not use the app to:
+    </p>
+    <ul>
+      <li>Scan or reproduce copyrighted, confidential, or proprietary content without permission</li>
+      <li>Violate any applicable laws or regulations</li>
+      <li>Harm, threaten, or harass others</li>
+      <li>Reverse engineer or attempt to access the app's source code</li>
+    </ul>
+
+    <h2>Privacy & Data Collection</h2>
+    <p>
+      <strong>Please read our <a href="https://your-domain.com/privacy" target="_blank">Privacy Policy</a> for detailed information about how we collect, use, and protect your data.</strong>
+    </p>
+    <p>
+      The app collects and uses:
+    </p>
+    <ul>
+      <li><strong>Advertising ID (GAID)</strong> — for ads and analytics</li>
+      <li><strong>Usage analytics</strong> — app events and interactions</li>
+      <li><strong>Device identifiers</strong> — for app functionality</li>
+    </ul>
+    <p>
+      <strong>We do not collect or access:</strong> The content of your scanned documents, personal files, or PDFs. All documents remain stored locally on your device.
     </p>
 
     <h2>Advertising</h2>
     <p>
-      This app displays advertisements served by Google Ad Manager. By using the
-      app, you agree to the display of ads including banner ads, interstitial ads,
-      native ads, rewarded ads, and app open ads.
+      This app displays advertisements served by <strong>Google Ad Manager</strong>. By using the app, you acknowledge and consent to the display of:
     </p>
+    <ul>
+      <li>Banner advertisements</li>
+      <li>Interstitial (full-screen) ads</li>
+      <li>Native ads</li>
+      <li>Rewarded ads</li>
+      <li>App open ads</li>
+    </ul>
     <p>
-      Ads are served based on your device's Advertising ID and anonymous usage
-      data. You may opt out of personalized ads via your device settings under
-      <strong>Settings → Google → Ads → Opt out of Ads Personalization</strong>.
+      Ads may be personalized based on your Advertising ID and usage data. You can:
     </p>
+    <ul>
+      <li>Opt out of personalized ads: <strong>Settings → Google → Manage your Google Account → Data & Privacy → Ad Settings → Opt out of Ads Personalization</strong></li>
+      <li>Reset your Advertising ID: <strong>Settings → Google → Manage your Google Account → Data & Privacy → Ad Settings → Reset Advertising ID</strong></li>
+    </ul>
     <p>
-      Ad content is provided by Google and subject to
-      <a href="https://policies.google.com/technologies/ads" target="_blank">
-        Google's Advertising Policies
-      </a>.
+      Ad content is provided by Google and subject to <a href="https://policies.google.com/technologies/ads" target="_blank">Google's Advertising Policies</a>. We are not responsible for ad content, targeting, or performance.
     </p>
 
-    <h2>Analytics & Attribution</h2>
+    <h2>Analytics, Attribution & Tracking</h2>
+    <h3>Firebase Analytics</h3>
     <p>
-      We use Apptrove to track app installs and anonymous in-app events such as
-      document scans, PDF saves, and file shares. This data helps us improve the
-      app experience. No personally identifiable information is collected through
-      this service.
+      We use <strong>Firebase Analytics</strong> to track user behavior, app performance, and in-app events (scans, saves, shares). This helps us improve the app and understand user engagement.
+    </p>
+    <p>
+      Firebase may collect device identifiers and Advertising ID for analytics purposes. For more information, visit <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy Policy</a>.
+    </p>
+
+    <h3>Apptrove Attribution</h3>
+    <p>
+      We use <strong>Apptrove</strong> to track app installs, install sources, and campaign attribution. Apptrove collects:
+    </p>
+    <ul>
+      <li>Device identifiers and Advertising ID</li>
+      <li>Install timestamp and source</li>
+      <li>In-app events (scans, saves, shares)</li>
+    </ul>
+    <p>
+      This data helps us understand which marketing campaigns are effective. For more information, visit <a href="https://apptrove.com/privacy-policy" target="_blank">Apptrove Privacy Policy</a>.
+    </p>
+
+    <h2>Push Notifications & Firebase Cloud Messaging</h2>
+    <p>
+      If you enable push notifications, the app uses <strong>Firebase Cloud Messaging (FCM)</strong> to send notifications to your device. When you enable notifications:
+    </p>
+    <ul>
+      <li>An FCM token is generated on your device</li>
+      <li>The token is sent to Firebase servers to enable message delivery</li>
+      <li>Firebase may associate the token with your device and Advertising ID</li>
+    </ul>
+    <p>
+      <strong>You can disable notifications at any time:</strong>
+    </p>
+    <ul>
+      <li>Android: App Settings → Notifications → Toggle off</li>
+      <li>Or: Device Settings → Apps → PDF Scanner → Notifications → Disable</li>
+    </ul>
+    <p>
+      Disabling notifications does not affect other app features. Your FCM token is automatically deleted when you uninstall the app or disable notifications.
     </p>
 
     <h2>Intellectual Property</h2>
     <p>
-      All app designs, branding, logos, and software content belong to the app
-      owner unless otherwise stated.
-    </p>
-
-    <h2>User Content</h2>
-    <p>
-      All scanned documents and generated PDFs remain the property of the user.
+      <strong>App Ownership:</strong> All app designs, branding, logos, software, code, and content (except user-generated content) belong to Bedigitech or its licensors.
     </p>
     <p>
-      We do not claim ownership over your files.
+      <strong>Your Documents:</strong> All scanned documents, PDFs, and files created through the app remain your property. We claim no ownership over your files.
     </p>
-
-    <h2>Limitations of Liability</h2>
     <p>
-      We are not responsible for:
+      You may not:
     </p>
     <ul>
-      <li>Data loss or corrupted files</li>
-      <li>Device issues caused by third-party services</li>
-      <li>Third-party sharing problems</li>
-      <li>Ad content displayed by Google Ad Manager</li>
-      <li>Any indirect or consequential damages arising from app use</li>
+      <li>Copy, modify, or distribute the app without permission</li>
+      <li>Reverse engineer or decompile the app</li>
+      <li>Remove or alter any intellectual property notices</li>
     </ul>
+
+    <h2>Third-Party Services & Their Terms</h2>
+    <p>
+      The app uses the following third-party services. By using our app, you also agree to their terms and policies:
+    </p>
+    <ul>
+      <li>
+        <strong>Google Ad Manager / AdMob</strong> — Serves advertisements
+        <a href="https://policies.google.com/terms" target="_blank">(Terms)</a> |
+        <a href="https://policies.google.com/privacy" target="_blank">(Privacy)</a>
+      </li>
+      <li>
+        <strong>Firebase Analytics</strong> — Tracks app usage and events
+        <a href="https://firebase.google.com/terms" target="_blank">(Terms)</a> |
+        <a href="https://firebase.google.com/support/privacy" target="_blank">(Privacy)</a>
+      </li>
+      <li>
+        <strong>Firebase Cloud Messaging</strong> — Delivers push notifications
+        <a href="https://firebase.google.com/terms" target="_blank">(Terms)</a> |
+        <a href="https://firebase.google.com/support/privacy" target="_blank">(Privacy)</a>
+      </li>
+      <li>
+        <strong>Apptrove</strong> — Measures installs and attribution
+        <a href="https://apptrove.com/terms" target="_blank">(Terms)</a> |
+        <a href="https://apptrove.com/privacy-policy" target="_blank">(Privacy)</a>
+      </li>
+      <li>
+        <strong>Expo</strong> — App development and deployment platform
+        <a href="https://expo.dev/terms" target="_blank">(Terms)</a> |
+        <a href="https://expo.dev/privacy" target="_blank">(Privacy)</a>
+      </li>
+      <li>
+        <strong>Google Play Services</strong> — Core Android functionality
+        <a href="https://policies.google.com/terms" target="_blank">(Terms)</a> |
+        <a href="https://policies.google.com/privacy" target="_blank">(Privacy)</a>
+      </li>
+    </ul>
+    <p>
+      We are not responsible for the practices, policies, or content of these third-party services.
+    </p>
+
+    <h2>Data Retention & Deletion</h2>
+    <p>
+      <strong>Your Device:</strong> All scanned documents and PDFs are deleted when you uninstall the app or manually delete files. No data is retained on our servers.
+    </p>
+    <p>
+      <strong>Third-Party Services:</strong>
+    </p>
+    <ul>
+      <li>Firebase Analytics: Automatically deleted after 25 months of inactivity</li>
+      <li>Apptrove: Retains data for attribution; can be deleted upon request</li>
+      <li>FCM Token: Automatically deleted 30 days after uninstall</li>
+    </ul>
+    <p>
+      <strong>To request data deletion:</strong> Contact <a href="mailto:shivam@bedigitech.com">shivam@bedigitech.com</a> with your device details and request.
+    </p>
+
+    <h2>Disclaimer of Warranties</h2>
+    <p>
+      The app is provided "AS IS" without warranties of any kind, either expressed or implied. We do not guarantee:
+    </p>
+    <ul>
+      <li>The app will be error-free or uninterrupted</li>
+      <li>Scanned documents will be perfectly accurate or lossless</li>
+      <li>Third-party sharing will succeed</li>
+      <li>Device compatibility with all Android versions</li>
+    </ul>
+
+    <h2>Limitation of Liability</h2>
+    <p>
+      <strong>We are not responsible for:</strong>
+    </p>
+    <ul>
+      <li>Data loss, file corruption, or failed conversions</li>
+      <li>Device issues, crashes, or battery drain caused by the app or third-party services</li>
+      <li>Failures or delays in sharing, syncing, or file transfer</li>
+      <li>Ad content, placement, or targeting decisions</li>
+      <li>Third-party service outages or performance issues</li>
+      <li>Any indirect, incidental, or consequential damages arising from app use</li>
+    </ul>
+    <p>
+      <strong>In no event shall our total liability exceed the price you paid for the app (if any).</strong>
+    </p>
+
+    <h2>Indemnification</h2>
+    <p>
+      You agree to indemnify and hold us harmless from any claims, damages, or costs arising from:
+    </p>
+    <ul>
+      <li>Your use of the app in violation of these terms</li>
+      <li>Your violation of applicable laws or regulations</li>
+      <li>Infringement of third-party rights due to your use</li>
+    </ul>
+
+    <h2>Termination</h2>
+    <p>
+      We reserve the right to suspend or terminate your access to the app if you:
+    </p>
+    <ul>
+      <li>Violate these terms or applicable laws</li>
+      <li>Engage in harmful, abusive, or illegal behavior</li>
+      <li>Attempt to hack, modify, or reverse engineer the app</li>
+    </ul>
+    <p>
+      Termination can happen with or without notice at our sole discretion.
+    </p>
+
+    <h2>Changes to These Terms</h2>
+    <p>
+      We may update these Terms & Conditions at any time to reflect changes in our practices, services, or legal requirements. Changes become effective when posted. <strong>Continued use of the app after updates constitutes acceptance of the new terms.</strong>
+    </p>
+    <p>
+      We recommend reviewing these terms periodically.
+    </p>
+
+    <h2>Governing Law</h2>
+    <p>
+      These Terms & Conditions are governed by and construed in accordance with the laws applicable in your jurisdiction, excluding its conflict of law provisions.
+    </p>
+
   
-    <h2>Third-Party Services</h2>
-    <p>
-      The app uses the following third-party tools and services:
-    </p>
-    <ul>
-      <li>Expo</li>
-      <li>Google Play Services</li>
-      <li>Google Ad Manager (advertising)</li>
-      <li>Apptrove (analytics & attribution)</li>
-    </ul>
-    <p>
-      These services operate under their own terms and privacy policies.
-    </p>
 
-    <h2>Changes to Terms</h2>
+    <h2>Contact & Support</h2>
     <p>
-      We may update these Terms & Conditions at any time. Continued use of the
-      app after changes constitutes acceptance of the updated terms.
-    </p>
-
-    <h2>Contact</h2>
-    <p>
-      For questions regarding these terms, contact:
+      For questions, concerns, or support, please contact:
     </p>
     <p>
-      <a href="mailto:shivam@bedigitech.com">
-        shivam@bedigitech.com
-      </a>
+      <strong>Email:</strong> <a href="mailto:shivam@bedigitech.com">shivam@bedigitech.com</a>
     </p>
-
+    <p>
+      <strong>Company:</strong> Bedigitech
+    </p>
+ 
+   
     <div class="footer">
-      © 2026 PDF Scanner. All rights reserved.
+      © 2026 PDF Scanner. All rights reserved.<br>
+      Last updated: June 2026
     </div>
   </div>
 </body>
