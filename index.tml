@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Scanner</title>
+</head>
+<body>
+
+    <h1>PDF Scanner</h1>
+
+    <p>
+        PDF Scanner is a simple and lightweight document scanning application that
+        allows users to scan documents, create PDF files, organize scans, and share
+        them easily.
+    </p>
+
+    <h2>Features</h2>
+    <ul>
+        <li>Scan documents using your phone camera</li>
+        <li>Create high-quality PDF files</li>
+        <li>Image enhancement</li>
+        <li>Multi-page PDF support</li>
+        <li>Organize and share documents</li>
+    </ul>
+
+    <h2>Useful Links</h2>
+    <ul>
+        <li>
+            <a href="https://shivambe04.github.io/pdf-scanner/privacy-policy.html" target="_blank">
+                Privacy Policy
+            </a>
+        </li>
+
+        <li>
+            <a href="https://shivambe04.github.io/pdf-scanner/terms.html" target="_blank">
+                Terms &amp; Conditions
+            </a>
+        </li>
+
+        <li>
+            <a href="https://shivambe04.github.io/pdf-scanner/app-ads.txt" target="_blank">
+                app-ads.txt
+            </a>
+        </li>
+    </ul>
+
+    <hr>
+
+    <p><strong>Developer:</strong> BEDIGITECH</p>
+    <p>&copy; 2026 PDF Scanner. All Rights Reserved.</p>
+
+</body>
+</html>
